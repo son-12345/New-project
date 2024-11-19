@@ -1,0 +1,170 @@
+/* Tổng thể */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4CAF50, #7fbb82); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Phần thông tin người dùng */
+  .user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  /* Avatar người dùng */
+  .user-avatar {
+    background-color: #ffffff;
+    color: #4CAF50;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Nút cài đặt */
+  .settings-btn {
+    background-color: #ffffff;
+    color: #4CAF50;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .settings-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: translateY(-3px);
+  }
+  
+  /* Tiêu đề */
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Mô tả trang */
+  p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #dcdcdc;
+  }
+  
+  /* Các tính năng */
+  .features {
+    margin-top: 40px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  
+  /* Danh sách các tính năng */
+  .features ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Nút tính năng */
+  .btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #388E3C;
+    padding: 14px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #388E3C;
+    color: white;
+    transform: translateY(-4px); /* Nâng nút lên khi hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Nút khi active */
+  .btn:active {
+    transform: translateY(0); /* Trở lại vị trí khi nhấn */
+    box-shadow: none;
+  }
+  
+  /* Hiệu ứng loading khi đang tải thông tin */
+  .loading {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  .settings-btn:hover {
+    background: linear-gradient(135deg, #5fcf60, #4caf50);
+    transform: scale(1.15) rotate(3deg);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .settings-dropdown button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background: #ffffff;
+    color: #4caf50;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+
+  }
