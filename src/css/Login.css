@@ -1,0 +1,196 @@
+/* Tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a1b9a, #9c27b0); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Đóng gói form */
+  .login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Tiêu đề */
+  h2 {
+    color: #6a1b9a;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Input field */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Chuyển màu đường viền khi hover hoặc focus */
+  input:focus {
+    border-color: #9c27b0;
+    outline: none;
+  }
+  
+  /* Nút submit */
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #6a1b9a;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hiệu ứng khi hover nút */
+  button:hover {
+    background-color: #9c27b0;
+  }
+  
+  /* Thông báo lỗi */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Thêm hiệu ứng cho alert */
+  .alert {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  /* Toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #7fbb82, #7fbb82); /* Gradient sắc nét */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  /* Đóng gói form */
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Nền trong suốt */
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Tạo hiệu ứng mờ cho nền */
+  }
+  
+  /* Tiêu đề */
+  h2 {
+    color: #3f51b5;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff4081, #7c4dff);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  /* Các trường input */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Hiệu ứng khi focus vào input */
+  input:focus {
+    border-color: #7c4dff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(124, 77, 255, 0.5); /* Ánh sáng focus */
+  }
+  
+  /* Nút đăng nhập */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #7c4dff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Hiệu ứng hover cho nút */
+  button:hover {
+    background-color: #5e35b1;
+    transform: translateY(-2px); /* Hiệu ứng nhấc nút lên khi hover */
+  }
+  
+  /* Hiệu ứng khi nhấn nút */
+  button:active {
+    transform: translateY(0); /* Nút trở về vị trí bình thường khi nhấn */
+  }
+  
+  /* Thông báo lỗi */
+  .error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  /* Hiệu ứng cho alert thông báo thành công */
+  .alert {
+    font-size: 18px;
+    color: #4caf50;
+    margin-top: 20px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Animation fade-in cho alert */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

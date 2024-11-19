@@ -1,0 +1,63 @@
+/* Tổng thể trang nạp tiền */
+form {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Tiêu đề của form *
+  form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Các trường nhập liệu */
+  form input {
+    padding: 14px;
+    margin: 12px 0;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  /* Hiệu ứng khi trường nhập liệu được focus */
+  form input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  /* Nút nạp tiền */
+  form button {
+    padding: 14px;
+    font-size: 1.1rem;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background: #218838;
+    transform: translateY(-3px);
+  }
+  
+  /* Thông báo lỗi (nếu có) */
+  form .error-message {
+    color: #ff0000;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
