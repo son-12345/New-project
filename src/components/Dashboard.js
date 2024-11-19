@@ -1,6 +1,0 @@
-<div>
-<div class="test"></div>
-<div class="test"></div>
-<div class="test"></div>
-<div class="test"></div>
-</div>
